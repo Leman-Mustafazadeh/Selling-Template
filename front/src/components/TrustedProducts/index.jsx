@@ -7,7 +7,7 @@ const TrustedProducts = () => {
                 <div className={`${styles.trust} row`}>
                     <div className={`${styles.trust_left} col-lg-6 col-md-6`}>
                         <img src="https://preview.colorlib.com/theme/selling/images/about_1.jpg.webp" alt="" />
-                        <div>
+                        <div className={styles.merc}>
                             <h1>
                                 Trusted Merchant</h1>
                             <p>FOR 50 YEARS</p>

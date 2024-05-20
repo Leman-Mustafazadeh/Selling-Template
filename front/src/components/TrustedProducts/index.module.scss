@@ -7,6 +7,7 @@
 }
 .trust_left{
 width: 50%;
+position: relative;
 }
 .trust_left img{
     width: 100%;
@@ -43,5 +44,11 @@ font-size: 1rem;
     background:  #fff;
     color:#000
 }
-
+.merc{
+    padding: 20px ;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
 
