@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.pro_sec{
+    text-align: center;
+    padding: 30px 0;
+}
+.pro_sec h1{
+color:#000000;
+font-size: 40px;
+font-weight: 900;
+}
+.pro_sec  p{
+    color: 
+    #808080;
+    font-size: 16px;
+font-weight: 400;
+padding: 30px 0;
+}
+// @media (max-width:900px) {
+//     display: grid;
+//     grid-template-columns: auto ;
+// }

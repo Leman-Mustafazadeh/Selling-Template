@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    padding: 30px 0;
+}
+.sell_head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+} 
+.sell_head  .sell_link{
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+.sell_head ul{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.sell_head ul li{
+    list-style: none;
+
+}
+.sell_head ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+.sell_head ul li a:hover{
+    color: orange;
+}

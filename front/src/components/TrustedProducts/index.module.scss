@@ -1,0 +1,47 @@
+.trust{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px ;
+}
+.trust_left{
+width: 50%;
+}
+.trust_left img{
+    width: 100%;
+    }
+    .trust_title{
+        width: 40%;
+        padding: 20px;
+        text-align: start;
+    }
+.trust_title h3{
+    font-size: 13px;
+    color: #adb5bd;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 700;
+} 
+.trust_title h4{
+ color: #000;
+font-size: 40px;
+font-weight: 900;} 
+.trust_title p{
+line-height: 1.7;
+color: gray;
+font-weight: 400;
+font-size: 1rem;    
+}
+.trust_title button{
+    border-width: 2px;
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+.trust_title button:hover{
+    background:  #fff;
+    color:#000
+}
+
+

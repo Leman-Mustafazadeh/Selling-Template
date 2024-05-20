@@ -1,0 +1,49 @@
+.sell_sec{
+    background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
+    width: 100%;
+    background-size: cover;
+    padding: 30px 0;
+    // position: fixed;
+}
+.sell_sec h1{
+    color: RGB(255, 255, 255);
+    font-weight: 900;
+    font-size:  80px;
+    
+}
+.sell_sec p{
+    font-weight: 300;
+    color: 
+#FFFFFF;
+font-size: 20px;
+padding: 30px 0;
+}
+.sell_title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-top: 100px;
+
+}
+.sell_sec .show{
+    padding: 7px 15px ;
+    background-color:transparent;
+    color: white;
+    border-color: 2px solid white;
+    margin-right: 20px;
+}
+.sell_sec .show:hover{
+    background-color:white;
+    color: black;
+}
+.sell_sec  .club{
+    padding: 7px 15px ;
+    background-color:white;
+    color: black;
+    border-color: 2px solid white;
+}
+.sell_sec  .club:hover{
+    background-color:transparent;
+    color: white;
+}
