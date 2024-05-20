@@ -4,8 +4,8 @@ const TrustedProducts = () => {
     return (
         <section>
             <div className="container">
-                <div className={styles.trust}>
-                    <div className={styles.trust_left}>
+                <div className={`${styles.trust} row`}>
+                    <div className={`${styles.trust_left} col-lg-6 col-md-6`}>
                         <img src="https://preview.colorlib.com/theme/selling/images/about_1.jpg.webp" alt="" />
                         <div>
                             <h1>
@@ -14,7 +14,7 @@ const TrustedProducts = () => {
                         </div>
                     </div>
 
-                    <div className={styles.trust_title}>
+                    <div className={`${styles.trust_title} col-lg-12 col-md-6`}>
                         <h3>MERCHANT COMPANY</h3>
                         <h4>About Us</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui fuga ipsa, repellat blanditiis nihil, consectetur. Consequuntur eum inventore, rem maxime, nisi excepturi ipsam libero ratione adipisci alias eius vero vel!</p>

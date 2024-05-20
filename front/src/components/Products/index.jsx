@@ -10,6 +10,7 @@ import styles from "./index.module.scss"
 import { deleteOne } from '../../API';
 import Swal from "sweetalert2"
 import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Products = () => {
     const { products, setProducts,basket, setBasket } = useContext(ProductsContext)
 
@@ -65,17 +66,16 @@ const Products = () => {
                 <h1>Our Products</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae nostrum natus excepturi fuga ullam accusantium vel ut eveniet aut consequatur laboriosam ipsam.</p>
                 <Button style={{ backgroundColor: 'pink', margin: '20px 0' }}><Link to={'/addproducts'} style={{ textDecoration: 'none' }}>Add Products</Link></Button>
-                <Card className={styles.cards}> {
+                <Card className={styles.cards} > {
                     products && products.map((item) => {
                         return (
-
-                            <Card sx={{ maxWidth: 345 }} key={item.id} >
+                            <Card sx={{ maxWidth: 345 }} key={item.id}>
                                 <CardMedia
                                     sx={{ height: 340 }}
                                     image={item.imgSrc}
                                     title="green iguana"
                                 />
-                                <CardContent>
+                                <CardContent >
                                     <Typography gutterBottom variant="h5" component="div">
                                         {item.name}
                                     </Typography>
